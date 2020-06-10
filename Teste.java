@@ -33,7 +33,7 @@ class Teste {
   public void mostraAluno(Aluno aluno) {
 
     System.out.println("\nAluno " + aluno.getNome());
-    System.out.println( aluno.getAvaliacoes().size() + " Avaliações");
+    System.out.println( aluno.totalAvaliacoes() + " Avaliações");
     ArrayList<Avaliacao> lista = aluno.getAvaliacoes();
 
     for (int i=0; i < lista.size(); i++) {

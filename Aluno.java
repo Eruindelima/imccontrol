@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-
-
 class Aluno {
 
   private String nome;
@@ -24,4 +22,7 @@ class Aluno {
     return this.listaAvaliacoes;
   }
 
+  public int totalAvaliacoes() {
+    return listaAvaliacoes.size();
+  }
 }
