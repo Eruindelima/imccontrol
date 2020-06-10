@@ -1,8 +1,7 @@
 class Aluno {
 
   private String nome;
-
-  Avaliacao avaliacao;
+  private Avaliacao avaliacao;
 
   //construtor
   public Aluno(String n) {
@@ -12,4 +11,13 @@ class Aluno {
   public String getNome() {
     return nome;
   }
+
+  public void setAvaliacao(Avaliacao nova) {
+    this.avaliacao = nova;
+  }
+
+  public Avaliacao getAvaliacao() {
+    return this.avaliacao;
+  }
+
 }
